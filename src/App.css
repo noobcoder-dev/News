@@ -1,0 +1,54 @@
+/* App.css */
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  /* Ensure the app takes full height */
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Navbar Styles */
+  .MuiAppBar-root {
+    background-color: #333;
+  }
+  
+  /* Card Styles */
+  .MuiCard-root {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  /* Card Media Styles */
+  .MuiCardMedia-root {
+    object-fit: cover;
+  }
+  
+  /* Card Content Styles */
+  .MuiCardContent-root {
+    padding: 16px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+  }
+  
+  /* Container Styles */
+  .MuiContainer-root {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
